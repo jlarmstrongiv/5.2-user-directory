@@ -22,6 +22,7 @@
   },
   "homepage": "https://github.com/jlarmstrongiv/5.2-user-directory#readme",
   "dependencies": {
-    "express": "^4.15.3"
+    "express": "^4.15.3",
+    "mustache-express": "^1.2.4"
   }
 }

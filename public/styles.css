@@ -1,0 +1,39 @@
+* {
+  box-sizing: border-box;
+  font-family: 'Arial', sans-serif;
+}
+p, 
+h3 {
+  margin: 0;
+}
+.grid-cont {
+  display: flex;
+  flex-flow: row wrap;
+  padding: 15px;
+  align-items: flex-start;
+}
+.grid-cont__user {
+  flex: 1 1 20%;
+  border: 1px solid rgba(0, 0, 0, .3);
+  border-radius: 3px;
+  margin: 15px;
+  padding: 20px;
+  line-height: 150%;
+}
+.grid-cont__avatar {
+  margin: 0 auto;
+  display: block;
+}
+.name {
+  color: rgb(52, 124, 209);
+  margin: 20px 0;
+}
+.avatar {
+  object-fit: cover;
+}
+.description {
+  color: rgb(100, 108, 113);
+}
+.hire {
+  color: rgb(204, 93, 88);
+}

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+  <link rel="stylesheet" href="public/styles.css">
+</head>
+<body>
+  <h1>Users Grid</h1>
+  <div class="grid-cont">
+    {{#users}}
+    <div class="grid-cont__user user">
+      <img class="grid-cont__avatar avatar" src="{{avatar}}" alt="{{name}}">
+      <h3 class="grid-cont__name name">{{name}}</h3>
+      <p class="grid-user__description description">{{^job}}<span class="hire">Available for Hire</span>{{/job}}{{#job}}{{job}}, {{company}}{{/job}}</p>
+    </div>
+    {{/users}}
+  </div>
+  <div class="list">
+    <div class="list-cont">
+      <div class="left-col">
+        <img class="list-cont__avatar avatar" src="{{avatar}}" alt="{{name}}">
+        
+      </div>
+      <div class="right-col">
+
+      </div>
+    </div>
+  </div>
+</body>
+</html>
+{{^job}}
+Available
+{{/job}}
+
+<!--
+{{#repo}}
+  <b>{{name}}</b>
+{{/repo}}
+{{^repo}}
+  No repos :(
+{{/repo}}-->
