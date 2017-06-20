@@ -1,0 +1,27 @@
+{
+  "name": "5.2-user-directory",
+  "version": "0.0.1",
+  "description": "Node and Express JS",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jlarmstrongiv/5.2-user-directory.git"
+  },
+  "keywords": [
+    "Node",
+    "Express",
+    "JS"
+  ],
+  "author": "John Armstrong",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/jlarmstrongiv/5.2-user-directory/issues"
+  },
+  "homepage": "https://github.com/jlarmstrongiv/5.2-user-directory#readme",
+  "dependencies": {
+    "express": "^4.15.3"
+  }
+}
